@@ -1,27 +1,82 @@
 .column {
   width: 23%;
   float: left;
+  border: 1px dotted tomato;
+  height: 610px;
 }
 h1{
   text-align: center;
 }
+h2 {
+  padding-top: 10px;
+}
+
 .column h2 {
   text-align: center;
 }
 .column img {
-  margin-left: 20px;
   width: 75%;
-  float: center;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+}
+.column p {
+  padding: 10px;
+  font-size: 20px;
 }
 .hades{
   background-color: #f2ebba;
+  margin: 10px;
+  border: 3px solid green;
 }
+
+
 .kronos{
-    background-color: #bdf2ba;
+  background-color: #bdf2ba;
+  margin: 10px;
+  border: 3px solid green;
 }
 .aphro{
-    background-color: #bae4f2;
+  background-color: #bae4f2;
+  margin: 10px;
+  border: 3px solid green;
 }
 .zeus{
-    background-color: #f2baba;
+  background-color: #f2baba;
+  margin: 10px;
+  border: 3px solid green;
+  /*height: 610px;*/
+}
+
+@media screen and (max-width: 1000px){
+  .column h2 {
+    font-size: 20px;
+  }
+  .column p {
+    font-size: 16px;
+  }
+  .column img {
+    margin-left: 10px;
+    padding: 5px
+  }
+  .column {
+    height: 300px;
+  }
+}
+
+@media screen and (max-width: 480px){
+  .column {
+    height: 75px;
+  }
+  .column h2 {
+    font-size: 12px;
+  }
+  .column p {
+    font-size: 9px;
+  }
+  .column img {
+    margin-left: 0px;
+    padding: 0px
+  }
+
 }
