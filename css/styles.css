@@ -1,18 +1,26 @@
-.column {
-  width: 23%;
-  float: left;
-  border: 1px dotted tomato;
-  height: 610px;
+body {
+  background-color: #a6b2c4;
+  font-family: sans-serif;
+  font-size: 14px;
+  line-height: 18px;
+  margin: auto;
 }
-h1{
+h1 {
+  background-color: #ebeef4;
+  font-family: cursive;
+  font-size: 40px;
+  line-height: 45px;
   text-align: center;
+  padding: 40px;
 }
-h2 {
-  padding-top: 10px;
+.column {
+  width: 20%;
+  height: 610px;
+  float: left;
 }
-
 .column h2 {
   text-align: center;
+  padding-top: 10px;
 }
 .column img {
   width: 75%;
@@ -21,30 +29,29 @@ h2 {
   display: block;
 }
 .column p {
-  padding: 10px;
+  padding: 15px;
   font-size: 20px;
+  line-height: 25px;
 }
 .hades{
   background-color: #f2ebba;
   margin: 10px;
-  border: 3px solid green;
+  border: 3px solid white;
 }
-
-
 .kronos{
   background-color: #bdf2ba;
   margin: 10px;
-  border: 3px solid green;
+  border: 3px solid white;
 }
 .aphro{
   background-color: #bae4f2;
   margin: 10px;
-  border: 3px solid green;
+  border: 3px solid white;
 }
 .zeus{
   background-color: #f2baba;
   margin: 10px;
-  border: 3px solid green;
+  border: 3px solid white;
   /*height: 610px;*/
 }
 
@@ -60,13 +67,13 @@ h2 {
     padding: 5px
   }
   .column {
-    height: 300px;
+    height: 500px;
   }
 }
 
 @media screen and (max-width: 480px){
   .column {
-    height: 75px;
+    height: 300px;
   }
   .column h2 {
     font-size: 12px;
